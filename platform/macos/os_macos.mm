@@ -335,6 +335,20 @@ String OS_MacOS::get_version_alias() const {
 		macos_string += "Mojave";
 	} else if (ver.majorVersion == 10 && ver.minorVersion == 13) {
 		macos_string += "High Sierra";
+	} else if (ver.majorVersion == 10 && ver.minorVersion == 12) {
+		macos_string += "Sierra";
+	} else if (ver.majorVersion == 10 && ver.minorVersion == 11) {
+		macos_string += "El Capitan";
+	} else if (ver.majorVersion == 10 && ver.minorVersion == 10) {
+		macos_string += "Yosemite";
+	} else if (ver.majorVersion == 10 && ver.minorVersion == 9) {
+		macos_string += "Mavericks";
+	} else if (ver.majorVersion == 10 && ver.minorVersion == 8) {
+		macos_string += "Mountain Lion";
+	} else if (ver.majorVersion == 10 && ver.minorVersion == 7) {
+		macos_string += "Lion";
+	} else if (ver.majorVersion == 10 && ver.minorVersion == 6) {
+		macos_string += "Snow Leopard";
 	} else {
 		macos_string += "Unknown";
 	}
